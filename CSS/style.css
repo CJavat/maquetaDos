@@ -1,6 +1,49 @@
+:root {
+    --azul-uno: #6ceae9;
+    --azul-dos: #60e8e8;
+    --blanco-fondo: #f5f5f5;
+    --azul-letras: #246d8d;
+    --dorado-letras: #9e5c20;
+    --verde-letras: #198882;
+    --verde2-letras: #489b91;
+    --azul-boton1: #217091;
+    --azul-boton2: #9cf6f6;
+    --azul-social: #04cbce;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {/*!Ver si lo puedo borrar despues*/
+    padding: 0;
+}
+
 #cabecera {
-    
     background-image: url(/IMG/banner.png);
     background-position: 0;
-    background-repeat: repeat;    
+    background-repeat: repeat;
+}
+
+.contenedor-img {
+    background-color: var(--azul-uno);
+}
+
+.contenedor-apuntarme {
+    background-color: var(--azul-dos);
+}
+
+.apuntarme__titulo, .apuntarme__subtitulo {
+    color: var(--azul-letras);
+}
+
+.apuntarme__boton {
+    background-color: var(--azul-boton1);
+    color: #ffffff;
+}
+
+.contenedor-nosotros {
+    background-color: var(--blanco-fondo);
 }
