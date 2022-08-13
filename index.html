@@ -47,34 +47,79 @@
                 </div>
             </header>
             <main class="d-flex flex-wrap">
-                <div class="contenedor-img text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="contenedor-img text-center col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                     <img src="IMG/Mr-Moustache.png" alt="Mr. Moustache">
                 </div>
-                <div class="contenedor-apuntarme text-center pt-3 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="contenedor-apuntarme text-center pt-3 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                     <h2 class="apuntarme__titulo ms-5 col-sm-10 col-lg-7 col-xxl-6">¿Te apasionan las redes sociales?</h2>
                     <p class="apuntarme__subtitulo text-start m-auto col-sm-6">Ahora puedes hacer de tu pasión tu profesión con nuestro
                         nuevo curso de Community manager
                     </p>
                     <button class="apuntarme__boton btn m-4">QUIERO APUNTARME</button>
                 </div>
-                <div class="contenedor-nosotros col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <div>
-                        <i class="fa-solid fa-book-open"></i>
-                        <h4>20 lecciones</h4>
+                <div class="contenedor-nosotros text-center col-12 col-lg-6">
+                    <div class="lecciones d-flex flex-wrap flex-row">
+                        <i class="fa-solid fa-book-open col-12 col-md-4 mt-2"></i>
+                        <div class="lecciones__informacion col-12 col-md-8 mt-2 pe-1 text-md-start">
+                            <h4>20 lecciones</h4>
+                            <p>
+                                En menos de lo que piensas te convertirás en todo un experto
+                                de las redes sociales y mucho más, todo en 20 lecciones.
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <i class="fa-solid fa-certificate"></i>
+                    <div class="certificado d-flex flex-wrap flex-row">
+                        <i class="fa-solid fa-certificate col-12 col-md-4 mt-2"></i>
+                        <div class="certificado__informacion col-12 col-md-8 mt-2 pe-1 text-md-start">
+                            <h4>Con certificado oficial</h4>
+                            <p>
+                                Nuestros cursos cuentan con una certificación oficial de la Universidad
+                                de Estudios Sociales de Illinois, por eso nuestros cursos son los mejores.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <span>asd</span>
+                <div class="contenedor-blog col-12 col-lg-6 ps-5 pe-5 pt-5 pb-5 text-light">
+                    <div class="contenedor-blog__informacion">
+                        <h4 class="blog__titulo col-12">Nuestro Blog</h4>
+                        <p class="blog__parrafo col-12">
+                            ¿Sabes que las redes sociales concentran el 30% del tráfico en internet?
+                            ¿Sabes también que los community manager son el septimo trabajo más solicitado
+                            por las empresas?. Nuestros cursos están en constante actualización y que internet
+                            es un medio en continuo movimiento, por eso te invitamos a que entres a nuestro
+                            blog para estar a la última.
+                        </p>
+                        <button class="blog__boton btn col-12">ÚLTIMAS NOTICIAS</button>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <span>asd</span>
+                <div class="contenedor-comentarios col-12 d-flex flex-wrap text-center">
+                    <div class="comentarios__persona1 col-12 col-lg-6 d-flex flex-wrap justify-content-center align-items-center mt-5 mb-5 gap-5">
+                        <img src="IMG/persona1.jpg" alt="Persona 1" class="comentarios__imagen-persona1 rounded-circle col-4 col-lg-4">
+                        <p class="comentarios__parrafo-persona1 col-5 col-lg-5">
+                            Como músico saber gestionar mis perfiles es una necesidad y en Moustache
+                            me han enseñado como hacerlo.
+                        </p>
+                    </div>
+                    <div class="comentarios__persona2 col-12 col-lg-6  d-flex flex-wrap justify-content-center align-items-center mt-lg-5 mb-5 gap-5">
+                        <img src="IMG/persona2.jpg" alt="Persona 2" class="comentarios__imagen-persona2 rounded-circle col-4 col-lg-4">
+                        <p class="comentarios__parrafo-persona2 col-5 col-lg-5">
+                            Nunca pensé qie podría convertir mi pasión por las redes sociales en mi
+                            trabajo.
+                        </p>
+                    </div>
                 </div>
             </main>
-            <footer>
-
+            <footer class="footer d-flex flex-column flex-nowrap justify-content-center align-content-center align-items-center">
+                <div class="redes-sociales mt-4 mb-4">
+                    <a class="text-decoration-none ms-3 me-3" href="#"><i class="rounded-circle bg-light p-2 fa-brands fa-twitter"></i></a>
+                    <a class="text-decoration-none ms-3 me-3" href="#"><i class="rounded-circle bg-light pt-2 pb-2 ps-3 pe-3 fa-brands fa-facebook-f"></i></a>
+                    <a class="text-decoration-none ms-3 me-3" href="#"><i class="rounded-circle bg-light p-2 fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="copyright text-center">
+                    <p class="copyright__parrafo">
+                        &#169 2015 Tu empresa | Política de Privacidad | www.tuempresa.com
+                    </p>
+                </div>
             </footer>
         </div>
         <script src="JS/bootstrap.bundle.min.js"></script>
